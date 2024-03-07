@@ -404,3 +404,30 @@ html {
 .contact .contact-container .social-box .icons img {
   width: 35px;
 }
+
+
+.warning-message {
+  display: none;
+  background-color: #ffcc00; 
+  color: #333;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 1500px) {
+  .warning-message {
+    display: block;
+  }
+
+  .home,
+  .about,
+  .skills,
+  .projects,
+  .contact{
+    display: none;
+  }
+
+}
